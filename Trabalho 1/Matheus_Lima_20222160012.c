@@ -100,7 +100,7 @@ DataQuebrada quebraData(char data[]){
   }  
 
 
-  int j = i + 1; //anda 1 cada para pular a barra
+  int j = i + 1; //anda 1 cada para pular o barra
   i = 0;
 
   for (; data[j] != '/'; j++){
@@ -422,12 +422,12 @@ int q4(char strTexto[], char strBusca[], int posicoes[30]){
         contadorLetras = 0;
 
     if(copia_strTexto[i] <- 61){ 
-      decrementar--;//decrementa quando encontra -61
+      decrementar--;  //decrementa quando encontra -61
         } 
         if(copia_strTexto[i] == copia_strBusca[j]){
             for(j = 1; copia_strBusca[j] != '\0'; j++){
                 if(copia_strBusca[j] != copia_strTexto[i + j]){ 
-                    contadorLetras++; //incrementa somente se a palavra buscada foi encontrada 
+                    contadorLetras++; //incrementa somente se a palavra buscada for encontrada 
                 }
             }
             if(contadorLetras == 0){
